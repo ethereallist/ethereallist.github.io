@@ -21,9 +21,18 @@ nav {
 }
 
 a:hover {
-    color: white;
     text-decoration: none;
     transform: scale(1.06,1.06);
     transition: 1000ms;
     border-bottom: 2px solid rgb(255, 255, 255);
+    margin: 10px;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
