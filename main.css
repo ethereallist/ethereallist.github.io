@@ -4,7 +4,7 @@
 
 ul {
     display: flex;
-    padding: 2vw;
+    padding: 1.2vw;
     justify-content: flex-end;
     gap: 3vw;
     list-style: none;
