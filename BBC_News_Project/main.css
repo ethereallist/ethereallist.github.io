@@ -188,6 +188,10 @@ a {
     color: white;
 }
 
+.scaled:hover {
+    transform: scale(1.06,1.06);
+    transition: 1000ms;
+}
 /*
 Si se usa la propiedad display, las animaciones no son compatibles, por lo tanto
 para usar esta transición, desactivar todos los display que afecten a la ul.
