@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    padding: 2vw;
+    justify-content: flex-end;
+    gap: 3vw;
+    list-style: none;
+}
+
+ul li:hover {
+    transform: scale(1.06,1.06);
+    transition: 1000ms;
+    
+}
+
+nav {
+    background-color: black;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+    transform: scale(1.06,1.06);
+    transition: 1000ms;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
