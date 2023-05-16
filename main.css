@@ -58,7 +58,7 @@ body {
     top: 0;
     left: 0;
     /* Preserve aspet ratio */
-    min-width: 100%;
+    min-width: 100vw;
     min-height: 100vh;
   }
 
