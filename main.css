@@ -47,12 +47,16 @@ main {
     margin: 20px;
 }
 
+.space {
+    height: 100%;
+    flex-basis: 100vh;
+}
+
 body {
     background-image: url(Background_Images/bee3.jpg);
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-      
+    position: fixed;
+    top: 0;
+    left: 0;
     /* Preserve aspet ratio */
     min-width: 100%;
     min-height: 100%;
@@ -84,6 +88,9 @@ body {
 }
 
 
+p {
+    color: white;
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}

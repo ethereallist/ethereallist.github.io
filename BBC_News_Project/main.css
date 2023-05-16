@@ -132,7 +132,6 @@ eso nos permite alinear y extender el ancho de cada elemento.*/
     grid-row-start: 1;
     grid-row-end: 1;
     overflow: hidden;
-    
 }
 
 .item2 {
@@ -172,7 +171,7 @@ tu contenido ese número de columnas. El contenido se expande
 de la caja.*/
 
 .grid div {
-    border: white solid 10px;    
+    border: white solid 10px;
     background-color: #D9D9D9;
 }
 
