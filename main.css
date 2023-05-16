@@ -50,7 +50,7 @@ main {
 body {
     background-image: url(Background_Images/bee3.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw ;
+    background-size: 100% ;
 }
 
 /* Extra small devices (phones, 600px and down) */
