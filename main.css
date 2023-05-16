@@ -48,7 +48,6 @@ main {
 }
 
 .space {
-    height: 100%;
     flex-basis: 100vh;
 }
 
