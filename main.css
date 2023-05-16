@@ -49,9 +49,15 @@ main {
 
 body {
     background-image: url(Background_Images/bee3.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% ;
-}
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+      
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+  }
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
