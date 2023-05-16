@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    color: rgb(250, 223, 149);
 }
 
 ul {
@@ -13,11 +14,12 @@ ul {
 ul li:hover {
     transform: scale(1.06,1.06);
     transition: 1000ms;
-    
+
 }
 
 nav {
-    background-color: black;
+    background: linear-gradient(to right, rgba(253, 253, 176, 0.02), rgba(47, 28, 1, 0.3));
+
 }
 
 a:hover {
@@ -26,6 +28,7 @@ a:hover {
     transition: 1000ms;
     border-bottom: 2px solid rgb(255, 255, 255);
     margin: 10px;
+    box-shadow: 0px 14px 33px -10px rgb(24, 13, 1);
 }
 
 a {
@@ -40,4 +43,30 @@ main {
     margin: 20px;
 }
 
+body {
+    background-image: url(Background_Images/bee3.jpg);
+}
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    ul {
+        display: flex;
+        padding: 1.2vw;
+        justify-content: flex-end;
+        gap: 3vw;
+        list-style: none;
+        flex-direction: column;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
