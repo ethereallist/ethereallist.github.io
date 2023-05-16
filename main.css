@@ -49,6 +49,9 @@ main {
 
 body {
     background-image: url(Background_Images/bee3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
 }
 
 /* Extra small devices (phones, 600px and down) */
