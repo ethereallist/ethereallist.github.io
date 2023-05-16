@@ -50,7 +50,6 @@ main {
 body {
     background-image: url(Background_Images/bee3.jpg);
     background-repeat: no-repeat;
-
     background-size: cover;
 }
 
