@@ -1,10 +1,12 @@
 * {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
     flex-grow: 1;
     color: white;
+    letter-spacing: 1px;
 }
 
 ul {
@@ -13,6 +15,8 @@ ul {
     justify-content: flex-end;
     gap: 3vw;
     list-style: none;
+    font-weight: 400;
+    align-items: center;
 }
 
 ul li:hover {
@@ -49,8 +53,7 @@ main {
 }
 
 .space {
-    flex-basis: 100vh;
-    width:100%
+    flex-basis: 70vh;
 }
 
 img {
@@ -58,9 +61,7 @@ img {
     left: 0;
     /* Preserve aspet ratio */
     min-width: 100vw;
-    
-    background-repeat: no-repeat;
-
+    min-height: 100vh;
   }
 
 
@@ -86,6 +87,11 @@ img {
     ul:hover {
         cursor: pointer;
     }
+}
+
+
+p {
+    color: white;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
