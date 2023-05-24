@@ -1,9 +1,17 @@
 * {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header {
+body {
+    background-image: url(Background_Images/bee3.jpg);
+    background-repeat: no-repeat;
+    background-size: ;
+}
+
+h2 {
     flex-grow: 1;
     color: white;
     letter-spacing: 1px;
@@ -26,7 +34,9 @@ ul li:hover {
 }
 
 nav {
-    background: linear-gradient(to right, rgba(253, 253, 176, 0.02), rgba(47, 28, 1, 0.3));
+    position: sticky;
+    width: 100%;
+    backdrop-filter: blur(10px);
 
 }
 
@@ -43,29 +53,15 @@ a {
     color: white;
     text-decoration: none;
 }
-
+/*
 main {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin: 20px;
-}
+
+}*/
 
 .space {
     flex-basis: 70vh;
 }
-
-body {
-    background-image: url(Background_Images/bee3.jpg);
-    position: fixed;
-    top: 0;
-    left: 0;
-    /* Preserve aspet ratio */
-    background-size: cover;
-    background-repeat:no-repeat ;
-    overflow: auto; 
-  }
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -94,16 +90,42 @@ body {
 
 p {
     color: black;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
 }
 
 button {
-    background: linear-gradient(to right, rgba(253, 253, 176, 0.05), rgba(47, 28, 1, 0.4));
+    backdrop-filter: blur(10px);
     border: none;
     border-radius: 40px;
     padding: 8px;
     color: white;
-    position: relative;
-    float: right;
+    z-index: 1;
+    background: transparent;
+    padding: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.06,1.06);
+    transition: 1000ms;
+    backdrop-filter: blur(0px);
+}
+
+.backgroundgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+
+.styles {
+    display: flex;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
