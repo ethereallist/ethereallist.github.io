@@ -38,6 +38,7 @@ nav {
     width: 100%;
     backdrop-filter: blur(10px);
 
+    background: linear-gradient(to right, rgba(253, 253, 176, 0.02), rgba(47, 28, 1, 0.3));
 }
 
 a:hover {
@@ -126,6 +127,7 @@ button:hover {
 
 .styles {
     display: flex;
+    color: white;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
